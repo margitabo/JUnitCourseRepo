@@ -7,7 +7,8 @@ import org.junit.Test;
 
 public class SimpleTimeoutTest {
 	
-	@Test(timeout = 5000)
+    @Ignore
+	@Test(timeout = 1000)
 	public void testWithTimeout() {
 		while (true) {
 			assertTrue(true);
